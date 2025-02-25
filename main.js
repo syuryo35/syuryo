@@ -20,6 +20,7 @@ function mainloop(){
     switch(idx){
         case 7:
         Sound();
+        fText('space puzzle', 480, 300, 80, "deepskyblue")
         if(tmr%40 < 20)
             fText('TAP TO START', 480, 680, 80, "pink");
         
