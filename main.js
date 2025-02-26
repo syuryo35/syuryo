@@ -212,7 +212,7 @@ function mainloop(){
             if(tmr%40 < 20)
                 fText("GAME OVER", 480, 420, 100, "violet");
             BGM(9);
-            if(tmr > 30*5){
+            if(tmr > 30*4){
                 stopBgm(9);
                 idx=0;
             }   
@@ -223,7 +223,7 @@ function mainloop(){
             fText("ハイスコア: "+loadLS(0), 480, 350, 70, "violet");
             fText("今回のスコア: "+score, 480, 450, 70, "violet");
             BGM(8);
-            if(tmr > 30*5){
+            if(tmr > 30*4){
                 stopBgm(8);
                 idx=0;
             }
