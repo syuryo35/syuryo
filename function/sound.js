@@ -8,7 +8,7 @@ function BGM(i){
     if(Smode==0)
         playBgm(i);
     else
-        stopBgm(i);
+        pauseBgm(i);
 }
 
 //音のON、OFF
