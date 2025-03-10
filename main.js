@@ -252,7 +252,7 @@ function mainloop(){
 
         //ゲーム中メニュー
         case 4:
-        stopBgm(10);
+        pauseBgm(10);
         Sound();
         fText("操作説明", 500, 100, 100, "lightskyblue");
         fText("ブロックの移動⇒  ←、↓、→", 500, 250, 60, "white");
@@ -294,6 +294,7 @@ function mainloop(){
 
         //ホームメニュー
         case 5:
+        pauseBgm(11);
         Sound();
         fText("操作説明", 500, 100, 100, "lightskyblue");
         fText("難易度選択⇒  ←、→", 500, 250, 60, "white");
