@@ -325,6 +325,8 @@ function mainloop(){
             if(530<tapY && tapY<680){
                 if(50<tapX && tapX<400){
                     SE(12);
+                    stopBgm(10);
+                    stopBgm(14);
                     idx = 0;
                 }
                 else if(550<tapX && tapX<900){
@@ -339,6 +341,8 @@ function mainloop(){
         fText("(N)o", 725, 600, 80, "white");
         if(key[89]>0){
             SE(12);
+            stopBgm(10);
+            stopBgm(14);
             idx=0;
         }
         if(key[78]>0){
